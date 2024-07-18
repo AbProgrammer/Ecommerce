@@ -1,0 +1,35 @@
+.searchBar{
+    display: flex;
+    height: 50px;
+    border:1px solid gainsboro;
+    align-items: center;
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    flex-basis: 70%;
+    padding-right: 30px;
+    
+    
+    
+
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+.searchBar > input{
+    border-style: none;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+.searchIcon{
+  padding: 20px;
+}
+
+
+
+

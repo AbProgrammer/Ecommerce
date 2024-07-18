@@ -1,0 +1,84 @@
+.header{
+    
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerLogo{
+    width: 100px;
+    height: 80px;
+    
+}
+
+.signUpLink{
+    color:inherit;
+    text-decoration: none;
+    color:gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    
+    
+    
+}
+
+
+
+.cartPageLink{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+.cart{
+    display: flex;
+    background-color: #0C831F;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+    
+
+    color:white;
+    flex-basis: 10%;
+}
+
+.cart > h4{
+
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and ( min-width: 320px) and ( max-width: 400px) {
+    
+    .cart{
+        display: none;
+    }
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and ( min-width: 400px) and ( max-width: 600px) {
+    .cart{
+        display: none;
+    }
+
+
+}
+
+@media only screen and ( min-width: 600px) and ( max-width: 1000px) {
+   
+}
+

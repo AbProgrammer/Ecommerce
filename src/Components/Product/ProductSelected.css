@@ -1,0 +1,98 @@
+.productSelected{
+
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    
+
+}
+
+.productSelected > h6{
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.productSelectedImage > img {
+
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.productDescription{
+  
+    flex:1;
+    
+}
+
+.productDescription > h4{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+    color:rgb(71, 66, 66);
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.productDescription > p{
+    margin-left:10px;
+    margin-right: 10px;
+    color:rgb(173, 166, 166);
+    margin-top: 5px;
+    
+    
+
+    
+}
+
+
+.productDescription{
+    
+}
+
+
+.addRemoveButtonSelectedProduct{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-right:10px;
+padding:10px 15px;
+border: 1px solid greenyellow;
+margin-top: 10px;
+
+
+}
+
+.addRemoveButtonSelectedProduct > button{
+
+    color:white;
+    font-size: 16px;
+    background-color:green ;
+    border:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+}
+
+.addRemoveButtonSelectedProduct > p{
+
+    color:white;
+    
+}
+
+.productImages{
+
+    margin: 50px;
+}

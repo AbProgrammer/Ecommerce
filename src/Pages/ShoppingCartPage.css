@@ -1,0 +1,132 @@
+.emptyCartBox{
+
+    height: 100vh;
+    position: relative;
+
+}
+
+.emptyCartBoxMessage {
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    
+    
+}
+
+
+.emptyCartBoxMessage > h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+.emptyCartBoxMessage > p{
+
+    text-align: center;
+    margin-top: 10px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.startShoppingButton{
+     
+    background-color: green;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+
+}
+
+
+
+
+
+.shoppingCart{
+
+display:flex;
+
+
+}
+
+.productsList > h2{
+    text-align: right;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.shoppingCartTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.shoppingCartTitle > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+    
+}
+
+.shoppingCartTitle > h6{
+    font-size: 18px;
+    color:gray;
+}
+
+.productsList{
+
+    flex-basis: 70%;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.subTotalHeading{
+    text-align: left;
+}
+
+.checkOutBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+    
+}
+
+
+
+.subTotalBox > h2{
+     text-align: center;
+     margin-left: 50px;
+     margin-top: 20px;
+}
+
+
+
+.esewaPaymentButton{
+    
+    background-color: green;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+   
+}
+
